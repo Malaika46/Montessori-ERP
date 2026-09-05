@@ -1,66 +1,134 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🌿 Montessori ERP & Gamified Learning Management System
 
-## About Laravel
+[![Laravel](https://img.shields.io/badge/Laravel-9.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**A comprehensive, multi-campus SaaS enterprise solution tailored specifically for authentic Montessori Schools & Academies.**  
+Features 6-level Role-Based Access Control (RBAC), Montessori rubric assessments, narrative report cards, real-time parent tracking, and an interactive **Gamified LMS**.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🚀 Key System Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 👑 1. Role-Based Access Control (RBAC)
+Strict multi-tenant & role authorization backed by real database relationships:
+* **Superadmin:** Global system settings, user CRUD, audit logs, multi-campus governance.
+* **Principal:** Academic quality control, narrative report approval & release workflow.
+* **Admin:** Student/Parent onboarding, environment allocations, PKR fee management.
+* **Teacher / Guide:** Classroom rubric scoring (*Introduced*, *Working*, *Mastered*), daily observations, quest creator.
+* **Student:** Learning journey, peer list, attendance calendar, PDF report card download, and Gamified LMS.
+* **Parent:** Real-time child attendance, directress narrative notes, PKR fee vouchers, verified PDF report downloads.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 🌿 2. Core Montessori Academic Engine
+Built according to traditional Montessori principles across 4 foundational domains:
+1. **Practical Life** (Pouring, Dressing Frames, Care of Self & Environment)
+2. **Sensorial** (Pink Tower, Broad Stair, Knobbed Cylinders, Colour Tablets)
+3. **Mathematics** (Spindle Box, Golden Beads, Stamp Game, Bead Chains)
+4. **Language & Phonics** (Sandpaper Letters, Moveable Alphabet, Pink/Blue/Green Series)
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 🎮 3. Interactive Gamified LMS
+* **🎯 MCQ Quiz Quest:** 10 curriculum-specific questions per topic (Math, Phonics, Sensorial, Practical Life, Cultural, Science).
+* **🧩 3D Memory Match Game:** Flip cards to match identical Montessori terms & materials.
+* **🔀 Word Scramble:** Unscramble Montessori terminology with instant hint helpers.
+* **⭐ XP & Leveling System:** Live XP counter, level progress bar (Level 1, Level 2...), and achievements.
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### 📄 4. Verified Narrative PDF Report Cards
+Formal academic workflow:
+`Draft (Teacher)` ➔ `Review (Principal)` ➔ `Released (Parent/Student)` ➔ **One-Click PDF Download**
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🔑 Demo Login Credentials
 
-## Code of Conduct
+> **Default Password for All Accounts:** `12341234`
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+| Role | User Name | Email Address | Roll / Employee ID | Password |
+| :--- | :--- | :--- | :--- | :--- |
+| **Superadmin** | Maham Mir | `mirm09845@gmail.com` | `SUP-001` | `12341234` |
+| **Principal** | Executive Principal | `principal@montessori.edu.pk` | `PRN-001` | `12341234` |
+| **Admin** | Campus Admin | `admin@montessori.edu.pk` | `ADM-001` | `12341234` |
+| **Teacher / Guide** | maha yes | `aimanhm302@gmail.com` | `TCH-002` | `12341234` |
+| **Student** | eshar dfgh | `zunairamunir39@gmail.com` | `STU-00008` | `12341234` |
+| **Parent 1** | Sehar No | `malaika6603@gmail.com` | `PAR-001` | `12341234` |
+| **Parent 2** | mir n no | `malaikaminer46@gmail.com` | `PAR-003` | `12341234` |
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🛠️ Technology Stack
 
-## License
+* **Backend Framework:** Laravel 9.x (PHP 8.1+)
+* **Database:** MySQL 8.0 / MariaDB
+* **Frontend:** Blade Templates, Bootstrap 5.3, Vanilla CSS Design System (`montessori-theme.css`)
+* **Icons & Fonts:** Bootstrap Icons, Inter & Outfit Google Fonts
+* **PDF Generation:** DomPDF / Laravel PDF Engine
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 💻 Installation & Setup Guide
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Malaika46/Montessori-ERP.git
+cd Montessori-ERP
+```
+
+### 2. Install Composer Dependencies
+```bash
+composer install
+```
+
+### 3. Environment Configuration
+Create a `.env` file from `.env.example`:
+```bash
+cp .env.example .env
+```
+
+Configure your MySQL database settings in `.env`:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=montessori_erp
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 4. Generate Application Key
+```bash
+php artisan key:generate
+```
+
+### 5. Run Migrations & Database Seeders
+```bash
+php artisan migrate --seed
+```
+
+### 6. Start Development Server
+```bash
+php artisan serve --port=8080
+```
+Visit **`http://127.0.0.1:8080`** in your browser.
+
+---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for Montessori Educators & Students</sub>
+</div>
